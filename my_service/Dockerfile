@@ -6,4 +6,4 @@ RUN git clone -b poco-1.11.7-release https://github.com/pocoproject/poco.git && 
 RUN git clone https://github.com/MinakovMax/AIS_Laba2.git
 RUN sudo ldconfig
 RUN cd AIS_Laba2 && mkdir build && cd build && cmake  .. && make
-ENTRYPOINT [ "hl_mai_lab_01/build/hl_mai_lab_01" ]
+ENTRYPOINT [ "AIS_Laba2/build/hl_mai_lab_01" ]
