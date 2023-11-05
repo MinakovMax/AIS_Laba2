@@ -1,0 +1,10 @@
+GET http://localhost:8080/search/?first_name=Ivan&last_name=Ivanov
+
+GET http://localhost:8080/search_login/?login=ivanov
+
+
+
+
+
+
+
